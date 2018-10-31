@@ -1,5 +1,13 @@
 body {
-  background: white; }
+  background: white;
+  overflow:hidden;
+}
 
 .jumbotron {
-  background-color: white; }
+  background-color: white;
+}
+
+#wrapper{
+    overflow:auto;
+    -webkit-overflow-scrolling: touch;
+}

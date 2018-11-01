@@ -1,13 +1,24 @@
-body {
+/* body {
   background: white;
   overflow:hidden;
-}
-
-.jumbotron {
-  background-color: white;
 }
 
 #wrapper{
     overflow:auto;
     -webkit-overflow-scrolling: touch;
+} */
+
+.jumbotron {
+  background-color: white;
 }
+
+a {
+  color:lightblue;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  text-decoration:none;
+}
+a:hover{color:white; text-decoration: none;}

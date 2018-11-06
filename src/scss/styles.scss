@@ -1,7 +1,21 @@
-$bg-color: white;
 body {
-    background: $bg-color;
+  background: white;
+  }
+.jumbotron {
+  background-color: white; }
+.bg-primary {
+  background-color: #14374c; }
+.jumbotron{ display:none; }
+.card{ display:none; }
+.navbar{ position:fixed; width:100%; background-color: #14374c;}
+
+a {
+  color:lightblue;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  text-decoration:none;
 }
-.jumbotron{
-  background-color: white;
-}
+a:hover{color:white; text-decoration: none;}

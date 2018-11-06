@@ -1,16 +1,13 @@
-/* body {
+body {
   background: white;
-  overflow:hidden;
-}
-
-#wrapper{
-    overflow:auto;
-    -webkit-overflow-scrolling: touch;
-} */
-
+  }
 .jumbotron {
-  background-color: white;
-}
+  background-color: white; }
+.bg-primary {
+  background-color: #14374c; }
+.jumbotron{ display:none; }
+.card{ display:none; }
+.navbar{ position:fixed; width:100%; }
 
 a {
   color:lightblue;

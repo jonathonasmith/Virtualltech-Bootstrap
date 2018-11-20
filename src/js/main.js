@@ -2,8 +2,17 @@
    $('.jumbotron').fadeIn();
    $('.card').fadeIn();
    anchorSmoothScroll();
+   resizeCards();
  });
 
+ $(window).on('resize', function () {
+   resizeCards();
+});
+
+function resizeCards(){
+  var imageHeight = $('.team_pic').height();
+  $('.team_card').css('height',imageHeight+75);
+}
 
 function anchorSmoothScroll(){
   // Select all links with hashes

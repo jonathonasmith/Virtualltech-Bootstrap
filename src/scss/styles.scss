@@ -5,9 +5,14 @@ body {
   background-color: white; }
 .bg-primary {
   background-color: #14374c; }
-.jumbotron{ display:none; }
+.jumbotron{
+  display:none;
+  padding-top: 100px;
+
+}
+
 .card{ display:none; }
-.navbar{ position:fixed; width:100%; background-color: #14374c;}
+.navbar{ position:fixed; width:100%; background-color: #14374c; }
 
 
 a {

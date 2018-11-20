@@ -47,17 +47,21 @@ a:hover {
   background-size: 100%; }
 
 .card-title{ position:absolute; top:0; left:0; right:0; }
-.team_pic{ position:absolute; left:0; bottom:0; max-width: 100%; }
+.team_pic{ position:absolute; left:0; bottom:0; right:0; width:100%;}
 
-@media screen and (max-device-width:1000px){
+@media screen and (max-width:1000px){
   #meet_the_team .row{ display:block; }
   .team_pic{ position:relative; }
   .card-title{ position:relative; }
   .team-card{ height:auto }
 }
-@media screen and (min-device-width:1000px){
+
+@media screen and (min-width:1000px){
   .team_pic{ height:300px; }
+  .team-card{ height:375px; }
 }
-@media screen and (min-device-width:1400px){
+
+@media screen and (min-width:1400px){
   .team_pic{ height:400px; }
+  .team-card{ height:475px; }
 }

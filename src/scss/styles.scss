@@ -1,18 +1,32 @@
 body {
-  background: white;
-  }
+  background: white;}
+@font-face {
+    font-family: 'logoFont';
+    src: url('fonts/logoFont.ttf');
+}
+ul {
+  display: table; text: text-center;
+}
+li {
+  display: table-cell; text: text-center;
+}
+h2 {
+    font-family: 'logoFont';}
+h4{
+  font-family: 'logoFont'
+}
+h5 {
+    font-family: 'logoFont';}
+
 .jumbotron {
-  background-color: white; }
+  background-color: white; font-family: 'logoFont'; display:none; padding-top: 140px; opacity: 50%;}
 .bg-primary {
   background-color: #14374c; }
-.jumbotron{
-  display:none;
-  padding-top: 100px;
 
-}
 
-.card{ display:none; }
-.navbar{ position:fixed; width:100%; background-color: #14374c; }
+
+.card{ display:none; border: none; }
+.navbar{ position:fixed;  height: auto; width:100%; background-color: #14374c; padding-top: 0}
 
 
 a {
@@ -48,7 +62,7 @@ a:hover{color:white; text-decoration: none;}
   #meet_the_team .row{ display:block; }
   .team_pic{ position:relative; }
   .card-title{ position:relative; }
-  .team-card{ height:auto }
+  .team-card{ height:auto; }
 }
 
 @media screen and (min-width:1000px){

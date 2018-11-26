@@ -105,6 +105,13 @@ a:hover {
     height: 310px;
     width: auto; } }
 
+@media screen and (min-width: 1000px) {
+  .team_pic {
+    height: 75%; }
+  .team-card {
+    height: 310px;
+    width: auto; } }
+
 @media screen and (min-width: 1200px) {
   .team_pic {
     height: 80%; }
@@ -114,7 +121,14 @@ a:hover {
 
 @media screen and (min-width: 1400px) {
   .team_pic {
-    height: 90%; }
+    height: 85%; }
   .team-card {
     height: 500px;
+    width: auto; } }
+
+@media screen and (min-width: 1800px) {
+  .team_pic {
+    height: 90%; }
+  .team-card {
+    height: 530px;
     width: auto; } }

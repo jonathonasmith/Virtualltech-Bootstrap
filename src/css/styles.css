@@ -91,16 +91,19 @@ a:hover {
   .card-title {
     position: relative; }
   .team-card {
-    height: auto; } }
+    height: auto;
+    width: auto; } }
 
 @media screen and (min-width: 1000px) {
   .team_pic {
-    height: 300px; }
+    height: 70%; }
   .team-card {
-    height: 375px; } }
+    height: 375px;
+    width: auto; } }
 
 @media screen and (min-width: 1400px) {
   .team_pic {
-    height: 400px; }
+    height: 90%; }
   .team-card {
-    height: 475px; } }
+    height: 475px;
+    width: auto; } }

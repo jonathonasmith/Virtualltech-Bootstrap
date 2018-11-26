@@ -62,15 +62,15 @@ a:hover{color:white; text-decoration: none;}
   #meet_the_team .row{ display:block; }
   .team_pic{ position:relative; }
   .card-title{ position:relative; }
-  .team-card{ height:auto; }
+  .team-card{ height:auto; width: auto;}
 }
 
 @media screen and (min-width:1000px){
-  .team_pic{ height:300px; }
-  .team-card{ height:375px; }
+  .team_pic{ height:70%; }
+  .team-card{ height:375px; width: auto;}
 }
 
 @media screen and (min-width:1400px){
-  .team_pic{ height:400px; }
-  .team-card{ height:475px; }
+  .team_pic{ height:90%; }
+  .team-card{ height:475px; width: auto;}
 }

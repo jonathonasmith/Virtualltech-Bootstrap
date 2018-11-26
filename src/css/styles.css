@@ -43,6 +43,10 @@ h5 {
   background-color: #14374c;
   padding-top: 0; }
 
+@media (max-width: 767px) {
+  .navbar-brand {
+    text-align: center; } }
+
 a {
   color: lightblue;
   -o-transition: .5s;
@@ -101,9 +105,16 @@ a:hover {
     height: 375px;
     width: auto; } }
 
+@media screen and (min-width: 1200px) {
+  .team_pic {
+    height: 80%; }
+  .team-card {
+    height: 390px;
+    width: auto; } }
+
 @media screen and (min-width: 1400px) {
   .team_pic {
     height: 90%; }
   .team-card {
-    height: 475px;
+    height: 420px;
     width: auto; } }

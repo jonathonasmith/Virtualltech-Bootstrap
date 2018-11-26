@@ -24,10 +24,17 @@ h5 {
   background-color: #14374c; }
 
 
-
 .card{ display:none; border: none; }
 .navbar{ position:fixed;  height: auto; width:100%; background-color: #14374c; padding-top: 0}
 
+
+
+@media (max-width: 767px) {
+.navbar-brand {
+	text-align: center;
+}
+
+}
 
 a {
   color:lightblue;
@@ -70,7 +77,12 @@ a:hover{color:white; text-decoration: none;}
   .team-card{ height:375px; width: auto;}
 }
 
+@media screen and (min-width:1200px){
+  .team_pic{ height:80%; }
+  .team-card{ height:390px; width: auto;}
+}
+
 @media screen and (min-width:1400px){
   .team_pic{ height:90%; }
-  .team-card{ height:475px; width: auto;}
+  .team-card{ height:420px; width: auto;}
 }

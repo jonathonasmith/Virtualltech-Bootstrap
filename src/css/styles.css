@@ -87,7 +87,7 @@ a:hover {
   right: 0;
   width: 100%; }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   #meet_the_team .row {
     display: block; }
   .team_pic {
@@ -98,11 +98,11 @@ a:hover {
     height: auto;
     width: auto; } }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
   .team_pic {
     height: 70%; }
   .team-card {
-    height: 375px;
+    height: 310px;
     width: auto; } }
 
 @media screen and (min-width: 1200px) {
@@ -116,5 +116,5 @@ a:hover {
   .team_pic {
     height: 90%; }
   .team-card {
-    height: 420px;
+    height: 500px;
     width: auto; } }
